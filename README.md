@@ -87,10 +87,18 @@ terraform init
 terraform plan
 terraform apply/destroy
 
+### results of this project
+<img width="1296" height="1014" alt="image" src="https://github.com/user-attachments/assets/6c7042e7-af94-4ce0-8ae4-bcca9b4f6471" />
+<img width="1919" height="880" alt="image" src="https://github.com/user-attachments/assets/f2552d9e-ac38-4a8a-9154-844c70b4a270" />
 
 
 Thanks and reagrds 
 MISS. Manisha Singh.
 DEVOPS-Intern.
+
+
+
+
+
 
 
