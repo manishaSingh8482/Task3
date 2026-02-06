@@ -1,8 +1,13 @@
-resource "aws_instance" "my_ec2" {
-  ami           = "ami-0f5ee92e2d63afc18"
-  instance_type = "t2.micro"
+module "ec2" {
+  source = "./modules/ec2"
 
-  tags = {
-    Name = "terraform-ec2-fast"
-  }
+  instance_name    = var.instance_name
+  instance_type    = var.instance_type
+  subnet_id        = var.subnet_id
+  vpc_id           = var.vpc_id
+  allowed_ssh_cidr = var.allowed_ssh_cidr
+
+  key_name = aws_key_pair.ec2_key.key_name
 }
+
+
