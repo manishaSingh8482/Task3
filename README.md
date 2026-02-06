@@ -1,3 +1,4 @@
+
 Terraform EC2 Key Pair & Strapi Deployment
  Project Overview
 
@@ -142,7 +143,7 @@ Steps Performed
 
 Connected to EC2 using SSH:
 
-ssh -i private_key.pem ubuntu@<EC2_PUBLIC_IP>
+ssh -i private_key.pem ubuntu@EC2_PUBLIC_IP
 
 
 Installed Node Version Manager (NVM)
@@ -163,3 +164,4 @@ npm run develop
 
 
 Verified Strapi application accessibility via EC2 public IP and port.
+

@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Strapi / Node
+node_modules/
+.env
+.env.*
+.tmp/
+.cache/
+build/
+dist/
+
+# OS
+.DS_Store
+
